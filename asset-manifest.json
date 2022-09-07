@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.679bb9fa.css",
-    "main.js": "/static/js/main.95c46f5f.js",
-    "static/js/787.ffac7c8b.chunk.js": "/static/js/787.ffac7c8b.chunk.js",
-    "index.html": "/index.html",
-    "main.679bb9fa.css.map": "/static/css/main.679bb9fa.css.map",
-    "main.95c46f5f.js.map": "/static/js/main.95c46f5f.js.map",
-    "787.ffac7c8b.chunk.js.map": "/static/js/787.ffac7c8b.chunk.js.map"
+    "main.css": "/zalgo-generator/static/css/main.679bb9fa.css",
+    "main.js": "/zalgo-generator/static/js/main.b71bf3ee.js",
+    "static/js/787.ffac7c8b.chunk.js": "/zalgo-generator/static/js/787.ffac7c8b.chunk.js",
+    "index.html": "/zalgo-generator/index.html",
+    "main.679bb9fa.css.map": "/zalgo-generator/static/css/main.679bb9fa.css.map",
+    "main.b71bf3ee.js.map": "/zalgo-generator/static/js/main.b71bf3ee.js.map",
+    "787.ffac7c8b.chunk.js.map": "/zalgo-generator/static/js/787.ffac7c8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.679bb9fa.css",
-    "static/js/main.95c46f5f.js"
+    "static/js/main.b71bf3ee.js"
   ]
 }
