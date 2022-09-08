@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/zalgo-generator/static/css/main.873aa368.css",
+    "main.css": "/zalgo-generator/static/css/main.3398566b.css",
     "main.js": "/zalgo-generator/static/js/main.11c511bc.js",
     "static/js/787.ffac7c8b.chunk.js": "/zalgo-generator/static/js/787.ffac7c8b.chunk.js",
     "index.html": "/zalgo-generator/index.html",
-    "main.873aa368.css.map": "/zalgo-generator/static/css/main.873aa368.css.map",
+    "main.3398566b.css.map": "/zalgo-generator/static/css/main.3398566b.css.map",
     "main.11c511bc.js.map": "/zalgo-generator/static/js/main.11c511bc.js.map",
     "787.ffac7c8b.chunk.js.map": "/zalgo-generator/static/js/787.ffac7c8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.873aa368.css",
+    "static/css/main.3398566b.css",
     "static/js/main.11c511bc.js"
   ]
 }
