@@ -71,7 +71,7 @@
       "unicorn/escape-case": "off",
       "capitalized-comments": "off",
       "unicorn/no-console-spaces": "off",
-      "n/file-extension-in-import": "off"
+      "import/extensions": "off"
     }
   }
 }
