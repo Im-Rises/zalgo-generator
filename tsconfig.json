@@ -4,12 +4,13 @@
     "module": "commonjs",
     "sourceMap": true,
     "strictNullChecks": true,
-    "declaration": true
+    "declaration": true,
+    "outDir": "./dist",
   },
   "exclude": [
     "node_modules"
   ],
   "include": [
-    "src"
+    "src/**/*.ts"
   ]
 }
