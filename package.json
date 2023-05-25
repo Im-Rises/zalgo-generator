@@ -13,15 +13,15 @@
   },
   "homepage": "https://im-rises.github.io/zalgo-generator-website/",
   "license": "MIT",
-  "main": "index.js",
+  "main": "index.ts",
   "files": [
-    "index.js",
+    "index.ts",
     "LICENSE",
     "README.md"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "prepublish": "tsc"
+    "prepublish": "tsc",
+    "test": "xo"
   },
   "author": {
     "url": "https://github.com/Im-Rises/zalgo-generator",
