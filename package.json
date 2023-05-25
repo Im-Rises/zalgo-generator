@@ -18,14 +18,12 @@
   },
   "homepage": "https://github.com/Im-Rises/zalgo-generator#readme",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/zalgo-generator.js",
   "files": [
-    "src/zalgo-generator.ts",
-    "src/zalgo-generator.d.ts",
-    "src/zalgo-generator.js",
-    "src/zalgo-generator.js.map",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "dist/zalgo-generator.js",
+    "dist/zalgo-generator.d.ts"
   ],
   "scripts": {
     "test": "xo",

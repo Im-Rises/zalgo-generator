@@ -136,9 +136,9 @@ const addZalgoToChar = (character: string, zalgoCount: number, zalgoArray: strin
 	return character;
 };
 
-const addZalgoToString = (textNotZalgo: string, zalgoCount: number, zalgoArray: string[]): string => {
+const addZalgoToString = (text: string, zalgoCount: number, zalgoArray: string[]): string => {
 	let result = '';
-	for (const char of textNotZalgo) {
+	for (const char of text) {
 		result += addZalgoToChar(char, zalgoCount, zalgoArray);
 	}
 
