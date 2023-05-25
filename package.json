@@ -20,7 +20,8 @@
     "README.md"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prepublish": "tsc"
   },
   "author": {
     "url": "https://github.com/Im-Rises/zalgo-generator",
@@ -48,5 +49,15 @@
     "eslint-config-xo-typescript": "^0.57.0",
     "typescript": "^5.0.4",
     "xo": "^0.54.2"
+  },
+  "xo": {
+    "extends": [
+      "xo",
+      "xo-typescript"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
   }
 }
