@@ -14,15 +14,19 @@
   },
   "homepage": "https://im-rises.github.io/zalgo-generator-website/",
   "license": "MIT",
-  "main": "index.ts",
+  "main": "index.js",
   "files": [
-    "index.ts",
+    "src/zalgo-generator.ts",
+    "src/zalgo-generator.js",
+    "src/zalgo-generator.js.map",
     "LICENSE",
     "README.md"
   ],
   "scripts": {
+    "test": "xo",
+    "start": "tsc && node .",
     "prepublish": "tsc",
-    "test": "xo"
+    "publish": "npm publish"
   },
   "author": {
     "url": "https://github.com/Im-Rises/zalgo-generator",
