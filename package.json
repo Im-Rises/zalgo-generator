@@ -2,6 +2,7 @@
   "name": "zalgo-generator",
   "version": "1.0.0",
   "description": "A simple Zalgo text generator for NodeJS",
+  "type": "module",
   "repository": {
     "url": "https://github.com/Im-Rises/zalgo-generator.git",
     "type": "git",
