@@ -1,0 +1,68 @@
+{
+  "name": "zalgo-generator",
+  "version": "1.0.0",
+  "description": "A simple Zalgo text generator for NodeJS",
+  "type": "module",
+  "repository": {
+    "url": "https://github.com/Im-Rises/zalgo-generator.git",
+    "type": "git",
+    "directory": "zalgo-generator"
+  },
+  "private": false,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://im-rises.github.io/zalgo-generator-website/",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "src/zalgo-generator.ts",
+    "src/zalgo-generator.js",
+    "src/zalgo-generator.js.map",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "xo",
+    "start": "tsc && node .",
+    "prepublish": "tsc",
+    "publish": "npm publish"
+  },
+  "author": {
+    "url": "https://github.com/Im-Rises/zalgo-generator",
+    "name": "Quentin MOREL (Im-Rises)",
+    "email": "Quentin-morel88@hotmail.com"
+  },
+  "keywords": [
+    "zalgo",
+    "generator",
+    "text",
+    "nodejs",
+    "javascript",
+    "typescript",
+    "text generator",
+    "zalgo text generator",
+    "zalgo generator",
+    "zalgo text",
+    "zalgo text nodejs"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.41.0",
+    "eslint-config-xo": "^0.43.1",
+    "eslint-config-xo-typescript": "^0.57.0",
+    "typescript": "^5.0.4",
+    "xo": "^0.54.2"
+  },
+  "xo": {
+    "extends": [
+      "xo",
+      "xo-typescript"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  }
+}
