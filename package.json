@@ -13,11 +13,15 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "homepage": "https://im-rises.github.io/zalgo-generator-website/",
+  "bugs": {
+    "url": "https://github.com/Im-Rises/zalgo-generator/issues"
+  },
+  "homepage": "https://github.com/Im-Rises/zalgo-generator#readme",
   "license": "MIT",
   "main": "index.js",
   "files": [
     "src/zalgo-generator.ts",
+    "src/zalgo-generator.d.ts",
     "src/zalgo-generator.js",
     "src/zalgo-generator.js.map",
     "LICENSE",
