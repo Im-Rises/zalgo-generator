@@ -70,7 +70,7 @@
     "rules": {
       "unicorn/escape-case": "off",
       "capitalized-comments": "off",
-      "unicorn/no-console-spaces": "off"
+      "unicorn/no-console-spaces": "off",
       "n/file-extension-in-import": "off"
     }
   }
