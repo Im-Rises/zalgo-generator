@@ -162,11 +162,6 @@ const randomZalgoGeneration = (textZalgo: string, maxHeight: number): string => 
 };
 
 export {
-	addZalgoToChar,
 	addZalgoToString,
-	unzalgoString,
 	unzalgoStringUpMidDown,
-	zalgoDownArray,
-	zalgoMidArray,
-	zalgoUpArray,
 };
