@@ -66,6 +66,12 @@
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
       "project": "./tsconfig.json"
+    },
+    "rules": {
+      "unicorn/escape-case": "off",
+      "capitalized-comments": "off",
+      "unicorn/no-console-spaces": "off"
+      "n/file-extension-in-import": "off"
     }
   }
 }

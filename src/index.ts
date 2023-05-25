@@ -1,4 +1,4 @@
-import {zalgoGeneration, zalgoRandomGeneration, unzalgoText} from './zalgo-generator';
+import {zalgoGeneration, zalgoRandomGeneration, unzalgoText} from './zalgo-generator.ts';
 
 console.log('Zalgo hello world! : ', zalgoGeneration('Zalgo hello world!', 1, 1, 1), '\n');
 
