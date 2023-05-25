@@ -1,3 +1,5 @@
+/* Zalgo text arrays */
+
 const zalgoUpArray: string[] = [
 	'\u030d', /*     ̍    */
 	'\u030e', /*     ̎    */
@@ -120,7 +122,11 @@ const zalgoMidArray: string[] = [
 	'\u0489', /*     ҉_   */
 ];
 
+/* Other functions */
+
 const getRandomInt = (max: number): number => Math.floor(Math.random() * max);
+
+/* Zalgo text */
 
 const addZalgoToChar = (character: string, zalgoCount: number, zalgoArray: string[]): string => {
 	for (let i = 0; i < zalgoCount; i++) {
@@ -139,6 +145,16 @@ const addZalgoToString = (textNotZalgo: string, zalgoCount: number, zalgoArray: 
 	return result;
 };
 
+const zalgoGeneration = (text: string, zalgoUpCount: number, zalgoMidCount: number, zalgoDownCount: number): string => {
+	text = addZalgoToString(text, zalgoUpCount, zalgoUpArray);
+	text = addZalgoToString(text, zalgoMidCount, zalgoMidArray);
+	return addZalgoToString(text, zalgoDownCount, zalgoDownArray);
+};
+
+const zalgoRandomGeneration = (text: string, zalgoCount: number): string => zalgoGeneration(text, getRandomInt(zalgoCount), getRandomInt(zalgoCount), getRandomInt(zalgoCount));
+
+/* Unzalgo text */
+
 const unzalgoString = (textZalgo: string, zalgoArray: string[]): string => {
 	for (const zalgoChar of zalgoArray) {
 		// textZalgo = textZalgo.replaceAll(zalgoChar, '');
@@ -148,20 +164,17 @@ const unzalgoString = (textZalgo: string, zalgoArray: string[]): string => {
 	return textZalgo;
 };
 
-const unzalgoStringUpMidDown = (textZalgo: string): string => {
+const unzalgoText = (textZalgo: string): string => {
 	textZalgo = unzalgoString(textZalgo, zalgoUpArray);
 	textZalgo = unzalgoString(textZalgo, zalgoMidArray);
 	textZalgo = unzalgoString(textZalgo, zalgoDownArray);
 	return textZalgo;
 };
 
-const randomZalgoGeneration = (textZalgo: string, maxHeight: number): string => {
-	textZalgo = addZalgoToString(textZalgo, getRandomInt(maxHeight), zalgoUpArray);
-	textZalgo = addZalgoToString(textZalgo, getRandomInt(maxHeight), zalgoMidArray);
-	return addZalgoToString(textZalgo, getRandomInt(maxHeight), zalgoDownArray);
-};
+/* Export */
 
 export {
-	addZalgoToString,
-	unzalgoStringUpMidDown,
+	zalgoGeneration,
+	zalgoRandomGeneration,
+	unzalgoText,
 };
