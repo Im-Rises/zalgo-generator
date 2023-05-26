@@ -40,14 +40,16 @@ console.log('Unzalgo Zalgo text! : ', unzalgoText(zalgoText), '\n');
 [![Node.js CI](https://github.com/Im-Rises/zalgo-generator/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Im-Rises/zalgo-generator/actions/workflows/node.js.yml)
 [![ESLint](https://github.com/Im-Rises/zalgo-generator/actions/workflows/eslint.yml/badge.svg?branch=main)](https://github.com/Im-Rises/zalgo-generator/actions/workflows/eslint.yml)
 [![CodeQL](https://github.com/Im-Rises/zalgo-generator/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/Im-Rises/zalgo-generator/actions/workflows/codeql.yml)
-[![Node.js Package](https://github.com/Im-Rises/zalgo-generator/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Im-Rises/zalgo-generator/actions/workflows/npm-publish.yml)
+
+[//]: # ([![Node.js Package]&#40;https://github.com/Im-Rises/zalgo-generator/actions/workflows/npm-publish.yml/badge.svg&#41;]&#40;https://github.com/Im-Rises/zalgo-generator/actions/workflows/npm-publish.yml&#41;)
 
 The project is set up to run the following actions:
 
 - node.js.yml : Runs the tests for the Node.js project.
 - eslint.yml : Runs the ESLint linter on the project.
 - codeql.yml : Runs the CodeQL linter on the project.
-- npm-publish.yml : Publishes the package to the npm registry.
+
+[//]: # (- npm-publish.yml : Publishes the package to the npm registry.)
 
 ## Documentations
 
