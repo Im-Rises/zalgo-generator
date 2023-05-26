@@ -9,7 +9,7 @@ This is a zalgo text generator. It will generate zalgo text from the input text.
 
 This package can be used for javascript and typescript.
 
-## 🚀🚀🚀 [The package is published on npm](https://www.npmjs.com/package/video-stream-ascii) 🚀🚀🚀
+## 🚀🚀🚀 [The package is published on npm](https://www.npmjs.com/package/zalgo-generator) 🚀🚀🚀
 
 The source code is available on 🚀🚀 [GitHub](https://github.com/Im-Rises/zalgo-generator) 🚀🚀
 
