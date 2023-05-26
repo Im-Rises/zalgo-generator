@@ -1,6 +1,6 @@
 {
   "name": "zalgo-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple Zalgo text generator for NodeJS",
   "type": "commonjs",
   "repository": {
@@ -23,6 +23,7 @@
     "LICENSE",
     "README.md",
     "dist/zalgo-generator.js",
+    "dist/zalgo-generator.js.map",
     "dist/zalgo-generator.d.ts"
   ],
   "scripts": {
