@@ -13,7 +13,7 @@ This package can be used for javascript and typescript.
 
 The source code is available on 🚀🚀 [GitHub](https://github.com/Im-Rises/zalgo-generator) 🚀🚀
 
-You can find an online demo at this address :
+You can find an online demo at this address:
 
 ## 🚀🚀 [zalgo-generator-website](https://github.com/Im-Rises/zalgo-generator-website) 🚀🚀
 
@@ -41,15 +41,11 @@ console.log('Unzalgo Zalgo text! : ', unzalgoText(zalgoText), '\n');
 [![ESLint](https://github.com/Im-Rises/zalgo-generator/actions/workflows/eslint.yml/badge.svg?branch=main)](https://github.com/Im-Rises/zalgo-generator/actions/workflows/eslint.yml)
 [![CodeQL](https://github.com/Im-Rises/zalgo-generator/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/Im-Rises/zalgo-generator/actions/workflows/codeql.yml)
 
-[//]: # ([![Node.js Package]&#40;https://github.com/Im-Rises/zalgo-generator/actions/workflows/npm-publish.yml/badge.svg&#41;]&#40;https://github.com/Im-Rises/zalgo-generator/actions/workflows/npm-publish.yml&#41;)
-
 The project is set up to run the following actions:
 
 - node.js.yml : Runs the tests for the Node.js project.
 - eslint.yml : Runs the ESLint linter on the project.
 - codeql.yml : Runs the CodeQL linter on the project.
-
-[//]: # (- npm-publish.yml : Publishes the package to the npm registry.)
 
 ## Documentations
 
