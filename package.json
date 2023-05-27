@@ -28,8 +28,7 @@
   "scripts": {
     "test": "xo",
     "start": "tsc && node dist/index.js",
-    "prepublish": "tsc",
-    "publish": "npm publish"
+    "prepublish": "tsc"
   },
   "author": {
     "url": "https://github.com/Im-Rises/zalgo-generator",
