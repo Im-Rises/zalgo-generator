@@ -1,17 +1,15 @@
 {
   "name": "zalgo-generator",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "A simple Zalgo text generator for NodeJS",
   "type": "commonjs",
   "repository": {
     "url": "https://github.com/Im-Rises/zalgo-generator.git",
-    "type": "git",
-    "directory": "zalgo-generator"
+    "type": "git"
   },
   "private": false,
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
     "url": "https://github.com/Im-Rises/zalgo-generator/issues"
@@ -35,7 +33,7 @@
   },
   "author": {
     "url": "https://github.com/Im-Rises/zalgo-generator",
-    "name": "Quentin MOREL (Im-Rises)",
+    "name": "Im-Rises (Quentin Morel)",
     "email": "Quentin-morel88@hotmail.com"
   },
   "keywords": [
