@@ -11,11 +11,11 @@ This package can be used for javascript and typescript.
 
 ## 🚀🚀🚀 [The package is published on npm](https://www.npmjs.com/package/zalgo-generator) 🚀🚀🚀
 
-The source code is available on 🚀🚀 [GitHub](https://github.com/Im-Rises/zalgo-generator) 🚀🚀
-
 You can find an online demo at this address:
 
-## 🚀🚀 [zalgo-generator-website](https://github.com/Im-Rises/zalgo-generator-website) 🚀🚀
+## 🚀🚀 [zalgo-generator-website](https://im-rises.github.io/zalgo-generator-website/) 🚀🚀
+
+The demo source code is available on 🚀🚀 [GitHub](https://github.com/Im-Rises/zalgo-generator-website) 🚀🚀
 
 ## Usage
 
